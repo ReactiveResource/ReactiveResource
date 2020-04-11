@@ -32,9 +32,9 @@ bundle install
 * Graphql + RESTful
 
 ## Motivation
-Building Data-Driven Web Apps today involves integrating a lot of moving pieces. You would typically pick your own stack -- frontend framework, backend framework, api layer (graphql/restful), authentication, ui framework and database engine. Integrating all the pieces to work in a cohesive way to input and display data can be daunting. 
+Building Data-Driven Web Apps today involves integrating a lot of moving pieces. It typically involves picking your own stack -- frontend framework, backend framework, api layer (graphql/restful), authentication, ui framework and database engine. Integrating all the pieces to work in a cohesive way to input and display data can be daunting. 
 
-The same forms and data-tables we had in the early 2000s are even harder to build now due to the sheer number of choices and integrations.
+The basis of CRUD application and requirements haven't changed much since the early 2000s, but it is more difficult than ever to create those same tables and forms.
 
 We grew tired of writing the same glue code for every project and new technology that came along. This is our attempt to provide a unified system of components that is vertically integrated and fun to use.
 
