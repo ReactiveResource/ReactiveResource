@@ -11,6 +11,18 @@ A fullstack component library that is productive and fun
 * Conventions over Configurations - forget spending days configuring your project, start in minutes
 * 🤪 FUN 🤪
 
+## Getting Started
+
+```bash
+rails new MyApp
+cd MyApp
+
+yarn add reactive-resource-ui
+
+echo -e "gem 'reactive-resource-data'" >> Gemfile
+bundle install
+```
+
 ## 🚗 Under the hood
 * React
 * Ant UI
