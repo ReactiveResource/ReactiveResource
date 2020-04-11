@@ -9,6 +9,7 @@ A fullstack component library that is productive and fun
 * Pre-assembeled - spend zero time assembling common components
 * Less-code - write less, accomplish more
 * Conventions over Configurations - forget spending days configuring your project, start in minutes
+* Fullstack - actually persist your data to a database
 * 🤪 FUN 🤪
 
 ## Getting Started
