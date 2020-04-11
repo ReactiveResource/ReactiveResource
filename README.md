@@ -41,7 +41,9 @@ There were a few great libraries that came along that ispired us and we wanted t
 
 ## Inspiration
 
-- [ActiveAdmin](https://activeadmin.info/) - brillant admin library that makes it possible to create tables, forms and detail pages for any CRUD rails app in a few keystrokes.
+- [ActiveAdmin](https://activeadmin.info/) - Brillant admin library that makes it possible to create tables, forms and detail pages for any CRUD rails app in a few keystrokes.
 - [Strapi](https://strapi.io/) - Headless CMS with feature rich interface to help you manage your custom data. Full-stack node.js. 
 - [AgileToolkit](https://www.agiletoolkit.org/) - Full-stack PHP component library that provides you all the standard CRUD components you would need
 - [Jumpstart](https://github.com/excid3/jumpstart/) - Starter kit for Rails projects includes a full set of tools to create a SaaS app
+- [Terstle](https://trestle.io/) - Admin building framework similar to ActiveAdmin but with responsive deisgn principles
+- [ForestAdmin](https://www.forestadmin.com/) - SaaS Admin intefrace for your API
