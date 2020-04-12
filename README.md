@@ -48,3 +48,4 @@ There were a few great libraries that came along that ispired us and we wanted t
 - [Jumpstart](https://github.com/excid3/jumpstart/) - Starter kit for Rails projects includes a full set of tools to create a SaaS app
 - [Terstle](https://trestle.io/) - Admin building framework similar to ActiveAdmin but with responsive deisgn principles
 - [ForestAdmin](https://www.forestadmin.com/) - SaaS Admin intefrace for your API
+- [ReactAdmin](https://marmelab.com/react-admin/) - A frontend web framework for B2B applications
