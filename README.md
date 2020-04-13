@@ -59,6 +59,8 @@ You can extend and overwrite each layer to suit your needs.
 - reactive-resource-data - Dynamic backend compoents to manage the business logic and database state
 - reactive-resource-dsl - Domain Specific Language that ties together the UI & Data layers using a sementic language.
 
+![Architecture](docs/reactive-resource-vs-traditional-architecture.jpg)
+
 ## 🚗 Under the hood
 * React
 * Ant UI
