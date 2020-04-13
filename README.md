@@ -40,7 +40,7 @@ resources :product, fields: [:name, :price, :image]
 
 To specify computed values and business rules you can simply peel back a layer by creating a new file like this:
 
-```
+```ruby
 # app/models/user.rb
 class Order < ReactiveResource::Model
   def total
