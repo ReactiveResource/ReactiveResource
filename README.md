@@ -24,6 +24,41 @@ echo -e "gem 'reactive-resource-data'" >> Gemfile
 bundle install
 ```
 
+## Usage
+
+```ruby
+# app.rb
+
+title 'Rain'
+subtitle 'Random Things & Random Prices'
+
+resources :users, fields: [:name, :email, :password, :phone]
+resources :orders, fields: [:user, :total, :taxes, :line_items]
+resources :line_items, fields: [:product, :quantity, :order]
+resources :product, fields: [:name, :price, :image]
+```
+
+To specify computed values and business rules you can simply peel back a layer by creating a new file like this:
+
+```
+# app/models/user.rb
+class Order < ReactiveResource::Model
+  def total
+    line_items.sum(0, &:price)
+  end
+end
+```
+
+This will extend the dynamically generated model and allow you to add additional things into it.
+
+You can extend and overwrite each layer to suit your needs.
+
+## Architecture
+
+- reactive-resource-ui - Dynamic frontend components that can be arranged together
+- reactive-resource-data - Dynamic backend compoents to manage the business logic and database state
+- reactive-resource-dsl - Domain Specific Language that ties together the UI & Data layers using a sementic language.
+
 ## 🚗 Under the hood
 * React
 * Ant UI
