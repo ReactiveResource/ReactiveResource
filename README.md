@@ -30,7 +30,7 @@ bundle install
 # app.rb
 
 title 'Rain'
-subtitle 'Random Things & Random Prices'
+subtitle 'Random things @ random prices'
 
 resources :users, fields: [:name, :email, :password, :phone]
 resources :orders, fields: [:user, :total, :taxes, :line_items]
