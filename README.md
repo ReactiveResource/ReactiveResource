@@ -5,6 +5,7 @@ A fullstack component library that is productive and fun
 * Modern UI - easy to customize
 * Authentication
 * Authorization
+* Dynamic - each layer uses dynamic language feature to avoid generating tons of code that create noise and complexity
 * Self-hosted - own your data
 * Pre-assembled - spend zero time assembling common components
 * Less-code - write less, accomplish more
